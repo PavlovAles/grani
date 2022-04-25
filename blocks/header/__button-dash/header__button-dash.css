@@ -1,0 +1,31 @@
+.header__button-dash {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
+
+.header__button-dash:nth-of-type(1) {
+  transform-origin: 0% 0%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__button-dash:nth-of-type(2) {
+  transition: transform 0.1s ease-in-out;
+}
+
+.header__button-dash:nth-of-type(3) {
+  transform-origin: 0% 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__menu-button_cross .header__button-dash:nth-of-type(1) {
+  transform: rotate(45deg);
+}
+
+.header__menu-button_cross .header__button-dash:nth-of-type(2) {
+  transform: scale(0);
+}
+
+.header__menu-button_cross .header__button-dash:nth-of-type(3) {
+  transform: rotate(-45deg);
+}

@@ -1,3 +1,25 @@
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  55% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .header__arrow {
-	
+  padding-bottom: 24px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  animation: bounce 1.7s ease infinite;
+}
+
+.header__arrow:hover {
+  opacity: .7;
 }

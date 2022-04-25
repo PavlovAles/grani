@@ -4,58 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grani studio</title>
+    <title>Грани Студия дизацна</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div class="page">
       <header class="header">
         <div class="header__menu">
-          <div class="header__menu-button"></div>
-          <img src="#" alt="Логотип" class="logo header__logo" />
-          <ul class="header__links header__links_position_left">
-            <li><a href="#" class="header__link">Услуги</a></li>
-            <li><a href="#" class="header__link">О нас</a></li>
-            <li><a href="#" class="header__link">Портфолио</a></li>
+          <div class="header__menu-button">
+            <span class="header__button-dash"></span>
+            <span class="header__button-dash"></span>
+            <span class="header__button-dash"></span>
+          </div>
+          <ul class="header__links">
+            <li><a href="#section-services" class="header__link">Услуги</a></li>
+            <li><a href="#section-about" class="header__link">О нас</a></li>
+            <li><a href="#section-projects" class="header__link">Портфолио</a></li>
           </ul>
-          <ul class="header__links header__links_position_right">
-            <li><a href="#" class="header__link">Как мы работаем</a></li>
-            <li><a href="#" class="header__link">Контакты</a></li>
+          <img
+            src="./images/logo.png"
+            alt="Логотип"
+            class="logo header__logo"
+          />
+          <ul class="header__links">
+            <li><a href="#section-process" class="header__link">Как мы работаем</a></li>
+            <li><a href="#footer" class="header__link">Контакты</a></li>
           </ul>
         </div>
-        <h1 class="header__title">студия дизайна интерьера</h1>
-        <p class="header__subtitle">
-          Дизайн квартир и общественных пространств в современном стиле
-        </p>
-        <a href="#" class="header__arrow"></a>
-        <svg
-          class="t-cover__arrow-svg"
-          style="fill: #ffffff"
-          x="0px"
-          y="0px"
-          width="38.417px"
-          height="18.592px"
-          viewBox="0 0 38.417 18.592"
-        >
-          <g>
-            <path
-              d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"
-            ></path>
-          </g>
-        </svg>
+        <div class="header__title-container">
+          <h1 class="header__title">студия дизайна интерьера</h1>
+          <p class="header__subtitle">
+            Дизайн квартир и общественных пространств в современном стиле
+          </p>
+        </div>
+        <a href="#section-galary" class="header__arrow">
+          <svg
+            class="t-cover__arrow-svg"
+            style="fill: #ffffff"
+            x="0px"
+            y="0px"
+            width="38.417px"
+            height="18.592px"
+            viewBox="0 0 38.417 18.592"
+          >
+            <g>
+              <path
+                d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"
+              ></path>
+            </g>
+          </svg>
+        </a>
       </header>
       <main class="main">
-        <section class="galary">
+        <section id="section-galary" class="galary">
           <img src="#" alt="" class="galary__img" />
           <img src="#" alt="" class="galary__img" />
           <img src="#" alt="" class="galary__img" />
           <img src="#" alt="" class="galary__img" />
         </section>
-        <section class="projects">
+        <section id="section-projects" class="projects">
           <a href="#" class="projects__project"> </a>
         </section>
-        <section class="services">
+        <section id="section-services" class="services">
           <h2 class="section__title">Услуги</h2>
           <p class="section__subtitle">
             Мы создаем функциональные современные интерьеры от маленьких до
@@ -88,7 +106,7 @@
             </li>
           </ul>
         </section>
-        <section class="about">
+        <section id="section-about" class="about">
           <h2 class="section__title">О нас</h2>
           <img src="#" alt="" class="about__img" />
           <p class="about__text">
@@ -97,7 +115,7 @@
             современное пространство для наших клиентов.
           </p>
         </section>
-        <section class="process">
+        <section id="section-process" class="process">
           <h2 class="section__title">Как мы работаем</h2>
           <ul class="process__list">
             <li class="process__item">
@@ -142,7 +160,7 @@
           </ul>
         </section>
       </main>
-      <footer class="footer">
+      <footer id="footer" class="footer">
         <h2 class="section__title">Контакты</h2>
         <p class="section__subtitle">
           Мы всегда рады новым возможностям и интересным проектам. Свяжитесь с
@@ -161,5 +179,6 @@
         </p>
       </footer>
     </div>
+    <script src="./scripts/menu.js"></script>
   </body>
 </html>

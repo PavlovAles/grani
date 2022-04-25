@@ -1,3 +1,7 @@
 .header__subtitle {
-	
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
 }
