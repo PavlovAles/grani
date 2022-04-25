@@ -2,8 +2,7 @@
 /*--- NO BEM BLOCKS ---*/
 
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
-@import url(../variables/colors.css);
+@import url(../vendor/fonts/Ubuntu/ubuntu.css);
 
 /*--- SERVICES ---*/
 
