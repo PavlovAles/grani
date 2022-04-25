@@ -1,8 +1,7 @@
 .page {
   margin: auto;
-  max-width: 1440px;
   box-sizing: border-box;
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
