@@ -1,0 +1,78 @@
+
+/*--- NO BEM BLOCKS ---*/
+
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../variables/colors.css);
+
+/*--- SERVICES ---*/
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__text/services__text.css);
+@import url(../blocks/services/__list/services__list.css);
+@import url(../blocks/services/__item/services__item.css);
+@import url(../blocks/services/__icon/services__icon.css);
+
+/*--- SECTION ---*/
+
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__subtitle/section__subtitle.css);
+
+/*--- PROJECTS ---*/
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__project/projects__project.css);
+
+/*--- PROCESS ---*/
+
+@import url(../blocks/process/process.css);
+@import url(../blocks/process/__title/process__title.css);
+@import url(../blocks/process/__text/process__text.css);
+@import url(../blocks/process/__list/process__list.css);
+@import url(../blocks/process/__item/process__item.css);
+@import url(../blocks/process/__icon/process__icon.css);
+
+/*--- PAGE ---*/
+
+@import url(../blocks/page/page.css);
+
+/*--- MAIN ---*/
+
+@import url(../blocks/main/main.css);
+
+/*--- LOGO ---*/
+
+@import url(../blocks/logo/logo.css);
+
+/*--- HEADER ---*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__links/_position/header__links_position_right.css);
+@import url(../blocks/header/__links/_position/header__links_position_left.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__arrow/header__arrow.css);
+
+/*--- GALARY ---*/
+
+@import url(../blocks/galary/galary.css);
+@import url(../blocks/galary/__img/galary__img.css);
+
+/*--- FOOTER ---*/
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__link/footer__link.css);
+
+/*--- ABOUT ---*/
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__img/about__img.css);
