@@ -4,16 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Грани Студия дизацна</title>
+    <title>Грани Студия дизайна</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
     <div class="page">
@@ -27,7 +37,9 @@
           <ul class="header__links">
             <li><a href="#section-services" class="header__link">Услуги</a></li>
             <li><a href="#section-about" class="header__link">О нас</a></li>
-            <li><a href="#section-projects" class="header__link">Портфолио</a></li>
+            <li>
+              <a href="#section-projects" class="header__link">Портфолио</a>
+            </li>
           </ul>
           <img
             src="./images/logo.png"
@@ -35,7 +47,11 @@
             class="logo header__logo"
           />
           <ul class="header__links">
-            <li><a href="#section-process" class="header__link">Как мы работаем</a></li>
+            <li>
+              <a href="#section-process" class="header__link"
+                >Как мы работаем</a
+              >
+            </li>
             <li><a href="#footer" class="header__link">Контакты</a></li>
           </ul>
         </div>
@@ -45,30 +61,32 @@
             Дизайн квартир и общественных пространств в современном стиле
           </p>
         </div>
-        <a href="#section-galary" class="header__arrow">
-          <svg
-            class="t-cover__arrow-svg"
-            style="fill: #ffffff"
-            x="0px"
-            y="0px"
-            width="38.417px"
-            height="18.592px"
-            viewBox="0 0 38.417 18.592"
-          >
-            <g>
-              <path
-                d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"
-              ></path>
-            </g>
-          </svg>
-        </a>
+        <a href="#section-galary" class="header__arrow"></a>
       </header>
       <main class="main">
         <section id="section-galary" class="galary">
-          <img src="#" alt="" class="galary__img" />
-          <img src="#" alt="" class="galary__img" />
-          <img src="#" alt="" class="galary__img" />
-          <img src="#" alt="" class="galary__img" />
+          <div class="galary__collage">
+            <img
+              src="./images/galary-1.jpg"
+              alt="Интерьер гостинная"
+              class="galary__img"
+            />
+            <img
+              src="./images/galary-2.jpg"
+              alt="Интерьер санузер"
+              class="galary__img"
+            />
+            <img
+              src="./images/galary-3.jpg"
+              alt="Интерьер кухня"
+              class="galary__img"
+            />
+            <img
+              src="./images/galary-4.jpg"
+              alt="Интерьер гостинная"
+              class="galary__img"
+            />
+          </div>
         </section>
         <section id="section-projects" class="projects">
           <a href="#" class="projects__project"> </a>
@@ -179,6 +197,22 @@
         </p>
       </footer>
     </div>
+    <div class="galary-popup">
+      <button
+        type="button"
+        class="galary-popup__btn galary-popup__btn_type_close"
+      ></button>
+      <button
+        type="button"
+        class="galary-popup__btn galary-popup__btn_type_next"
+      ></button>
+      <button
+        type="button"
+        class="galary-popup__btn galary-popup__btn_type_prev"
+      ></button>
+      <div class="galary-popup__img-container"></div>
+    </div>
     <script src="./scripts/menu.js"></script>
+    <script src="./scripts/galary.js"></script>
   </body>
 </html>
