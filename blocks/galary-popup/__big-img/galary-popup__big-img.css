@@ -1,6 +1,6 @@
 @keyframes appears-from-right {
   from {
-    transform: translate(calc(50px - 50%), -50%);
+    transform: translate(calc(100px - 50%), -50%);
     opacity: 0;
   }
   to {
@@ -11,12 +11,12 @@
 
 @keyframes appears-from-left {
   from {
-    transform: translate(calc(-50px - 50%), -50%);
+    transform: translate(calc(-100px - 50%), -50%);
     opacity: 0;
   }
   to {
     transform: translate(-50%, -50%);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
@@ -26,7 +26,7 @@
     opacity: 1;
   }
   to {
-    transform: translate(calc(50px - 50%), -50%);
+    transform: translate(calc(100px - 50%), -50%);
     opacity: 0;
   }
 }
@@ -37,7 +37,7 @@
     opacity: 1;
   }
   to {
-    transform: translate(calc(-50px - 50%), -50%);
+    transform: translate(calc(-100px - 50%), -50%);
     opacity: 0;
   }
 }
