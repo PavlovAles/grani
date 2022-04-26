@@ -1,0 +1,19 @@
+.projects__item {
+  overflow: hidden;
+}
+
+.projects__item:nth-of-type(1) {
+  --img-url: url(../../../images/projects-1.jpg);
+}
+
+.projects__item:nth-of-type(2) {
+  --img-url: url(../../../images/projects-2.png);
+}
+
+.projects__item:nth-of-type(3) {
+  --img-url: url(../../../images/projects-3.jpg);
+}
+
+.projects__item:nth-of-type(4) {
+  --img-url: url(../../../images/projects-4.jpg);
+}
