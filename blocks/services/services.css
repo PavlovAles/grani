@@ -1,3 +1,11 @@
 .services {
-	
+	padding: 150px 40px;
+  background-color: rgb(240, 240, 240);
+}
+
+@media (max-width: 980px) {
+  .services {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
