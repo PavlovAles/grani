@@ -1,3 +1,5 @@
 .footer__text {
-	
+	margin: 5px;
+  text-align: center;
+  line-height: 1.5;
 }
