@@ -4,3 +4,10 @@
   line-height: 1.5;
   font-weight: 300;
 }
+
+@media (max-width: 480px) {
+  .process__text {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
