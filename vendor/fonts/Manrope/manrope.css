@@ -29,3 +29,11 @@
   font-display: swap;
   src: url('Manrope-SemiBold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Manrope';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Manrope-Bold.ttf') format('truetype');
+}
