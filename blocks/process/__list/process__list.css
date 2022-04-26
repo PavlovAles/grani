@@ -1,3 +1,9 @@
 .process__list {
-	
+	margin: 60px auto 0;
+  padding: 0;
+  width: 100%;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
