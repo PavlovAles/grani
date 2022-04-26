@@ -1,0 +1,76 @@
+@keyframes appears-from-right {
+  from {
+    transform: translate(calc(50px - 50%), -50%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes appears-from-left {
+  from {
+    transform: translate(calc(-50px - 50%), -50%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes move-right {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(calc(50px - 50%), -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes move-left {
+  from {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: translate(calc(-50px - 50%), -50%);
+    opacity: 0;
+  }
+}
+
+.galary-popup__big-img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  cursor: zoom-out;
+  opacity: 0;
+}
+
+.galary-popup__big-img_active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.galary-popup__big-img_move-right {
+  animation: move-right .3s;
+}
+
+.galary-popup__big-img_move-left {
+  animation: move-left .3s;
+}
+
+.galary-popup__big-img_appears-from-right {
+  animation: appears-from-right .3s;
+}
+
+.galary-popup__big-img_appears-from-left {
+  animation: appears-from-left .3s;
+}
