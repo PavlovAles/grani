@@ -32,9 +32,12 @@
 /*--- GALARY ---*/
 
 @import url(../blocks/galary/galary.css);
+@import url(../blocks/galary/_project/galary_project.css);
 @import url(../blocks/galary/__collage/galary__collage.css);
+@import url(../blocks/galary/__collage/_project/galary__collage_project.css);
 @import url(../blocks/galary/__collage-item/galary__collage-item.css);
 @import url(../blocks/galary/__img/galary__img.css);
+@import url(../blocks/galary/__img/_span/galary__img_span_3.css);
 
 @import url(../blocks/galary-popup/galary-popup.css);
 @import url(../blocks/galary-popup/_opened/galary-popup_opened.css);
