@@ -1,0 +1,5 @@
+.galary__collage_project {
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 35vw 50vw 35vw 50vw 50vw;
+  gap: 20px;
+}
