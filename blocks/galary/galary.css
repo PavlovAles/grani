@@ -1,3 +1,10 @@
 .galary {
-	
+	padding: 10px 40px;
+}
+
+@media (max-width: 980px) {
+  .galary {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

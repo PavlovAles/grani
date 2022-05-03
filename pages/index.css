@@ -1,9 +1,7 @@
-
 /*--- NO BEM BLOCKS ---*/
 
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
-@import url(../variables/colors.css);
+@import url(../vendor/fonts/Manrope/manrope.css);
 
 /*--- SERVICES ---*/
 
@@ -22,7 +20,10 @@
 /*--- PROJECTS ---*/
 
 @import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__project/projects__project.css);
+@import url(../blocks/projects/__item/projects__item.css);
+@import url(../blocks/projects/__link/projects__link.css);
+@import url(../blocks/projects/__list/projects__list.css);
+@import url(../blocks/projects/__project-title/projects__project-title.css);
 
 /*--- PROCESS ---*/
 
@@ -32,6 +33,7 @@
 @import url(../blocks/process/__list/process__list.css);
 @import url(../blocks/process/__item/process__item.css);
 @import url(../blocks/process/__icon/process__icon.css);
+@import url(../blocks/process/__line/process__line.css);
 
 /*--- PAGE ---*/
 
@@ -48,31 +50,50 @@
 /*--- HEADER ---*/
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__title-container/header__title-container.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__button-dash/header__button-dash.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__links/_position/header__links_position_right.css);
-@import url(../blocks/header/__links/_position/header__links_position_left.css);
+@import url(../blocks/header/__links/_active/header__links_active.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__arrow/header__arrow.css);
 
 /*--- GALARY ---*/
 
 @import url(../blocks/galary/galary.css);
+@import url(../blocks/galary/__collage/galary__collage.css);
+@import url(../blocks/galary/__collage-item/galary__collage-item.css);
 @import url(../blocks/galary/__img/galary__img.css);
+@import url(../blocks/galary/__img/_span/galary__img_span_2.css);
 
+@import url(../blocks/galary-popup/galary-popup.css);
+@import url(../blocks/galary-popup/_opened/galary-popup_opened.css);
+@import url(../blocks/galary-popup/__img-container/galary-popup__img-container.css);
+@import url(../blocks/galary-popup/__big-img/galary-popup__big-img.css);
+@import url(../blocks/galary-popup/__btn/galary-popup__btn.css);
+@import url(../blocks/galary-popup/__btn/_type/galary-popup__btn_type_close.css);
+@import url(../blocks/galary-popup/__btn/_type/galary-popup__btn_type_next.css);
+@import url(../blocks/galary-popup/__btn/_type/galary-popup__btn_type_prev.css);
 /*--- FOOTER ---*/
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_section__subtitle/footer_section__subtitle.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__socials/footer__socials.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 /*--- ABOUT ---*/
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__img/about__img.css);
+
+/*--------*/
+html {
+  scroll-behavior: smooth;
+}

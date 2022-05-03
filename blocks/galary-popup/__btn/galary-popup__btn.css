@@ -1,0 +1,14 @@
+.galary-popup__btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(255, 255, 255, .3);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+}

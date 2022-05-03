@@ -1,0 +1,6 @@
+.galary-popup__btn_type_prev {
+  background-image: url(../../../../images/arrow_black.svg);
+  transform: rotate(90deg);
+  left: 20px;
+  top: calc(50vh - 10px);
+}

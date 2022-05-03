@@ -1,3 +1,12 @@
 .process__title {
-	
+	margin: 0 0 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .process__title {
+    font-size: 16px;
+    line-height: 1;
+  }
 }

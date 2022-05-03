@@ -1,0 +1,23 @@
+.projects__list {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-auto-rows: 440px;
+  gap: 20px;
+}
+
+@media (max-width: 1040px) {
+  .projects__list {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .projects__list {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}

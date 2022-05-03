@@ -1,0 +1,7 @@
+.galary__collage-item:nth-of-type(1) {
+  grid-column: span 2;
+}
+
+.galary__collage-item:nth-of-type(4) {
+  grid-column: span 2;
+}
