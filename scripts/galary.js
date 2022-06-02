@@ -81,6 +81,14 @@ btnNext.addEventListener("click", showNext);
 
 btnPrev.addEventListener("click", showPrev);
 
+document.addEventListener('keydown', (evt) => {
+  if (popup.classList.contains('galary-popup_opened')) {
+    if (evt.key === 'Escape') closePopup();
+    if (evt.key === 'ArrowRight') showNext();
+    if (evt.key === 'ArrowLeft') showPrev();
+  }
+});
+
 collageImgs.forEach((img) => {
   img.addEventListener("click", openPopup);
   let popupImg = img.cloneNode(true);
@@ -94,3 +102,24 @@ const popupImgs = Array.from(
 );
 
 popupImgs.forEach((img) => img.addEventListener("click", closePopup));
+
+
+
+let x0 = null;
+
+function unify(evt) {	return evt.changedTouches ? evt.changedTouches[0] : evt };
+
+function lock(evt) { x0 = unify(evt).clientX };
+
+function move(evt) {
+  if (x0 || x0 === 0) {
+		let dx = unify(evt).clientX - x0, s = Math.sign(dx);
+		s > 0 ? showPrev() : showNext();
+		x0 = null
+	}
+};
+
+popup.addEventListener('mousedown', lock);
+popup.addEventListener('touchstart', lock);
+popup.addEventListener('mouseup', move);
+popup.addEventListener('touchend', move);
